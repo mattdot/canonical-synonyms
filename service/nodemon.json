@@ -1,0 +1,9 @@
+{
+    "env" : {
+        "PORT" : 1383,
+        "AZURE_STORAGE_ACCOUNT" : "oreganosynonyms",
+        "AZURE_STORAGE_ACCESS_KEY" : "ho+A0ilgbZtsODhMNINAyWkELeR+xr3X26lADGtxw0BW5Z5oufrblpsk9Wc1KuH95BkT22OGUQMy5wpu86VqZw==",
+        "LUIS_APP_ID": "4b5c4720-0576-46c4-9b28-a42404cac8c6",
+        "LUIS_API_KEY" : "55c03d81a5b64678b205b3370c4e1201"
+    }
+}

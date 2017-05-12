@@ -1,0 +1,44 @@
+{
+  "name": "canonical-synonyms-service",
+  "version": "0.1.0",
+  "description": "service hosting canonical-synonyms api and management",
+  "main": "src/server/app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdot/canonical-synonyms.git"
+  },
+  "keywords": [
+    "bot",
+    "entity",
+    "luis",
+    "synonyms"
+  ],
+  "author": "mdotson@microsoft.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattdot/canonical-synonyms/issues"
+  },
+  "homepage": "https://github.com/mattdot/canonical-synonyms#readme",
+  "dependencies": {
+    "azure-storage": "^2.0.0",
+    "express": "^4.14.1",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "react-tagsinput": "^3.15.1",
+    "redux": "^3.6.0",
+    "canonical-synonyms" : "latest"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  }
+}
